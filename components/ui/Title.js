@@ -1,13 +1,14 @@
-import { Text, StyleSheet } from "react-native";
+import { Text, StyleSheet, Dimensions } from "react-native";
 
 
 function Title({ children }) {
   return <Text style={styles.title}>{children}</Text>;
 }
+const deviceWidth = Dimensions.get('window').width
 const styles = StyleSheet.create({
   title: {
     fontFamily:'open-sans-bold',
-    fontSize: 24,
+    fontSize: deviceWidth *0.03,
     // fontWeight: "bold",
     color:'white',
     textAlign: "center",

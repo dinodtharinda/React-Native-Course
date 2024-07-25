@@ -14,15 +14,15 @@ const styles = StyleSheet.create({
   constiner: {
     borderWidth: 4,
     borderColor: Colors.accent500,
-    padding: deviceWidth < 380 ? 12 : 24,
+    padding: deviceWidth* 0.04,
     borderRadius: 8,
-    margin: deviceWidth < 380 ? 12 : 24,
+    margin: deviceWidth* 0.04,
     alignItems: "center",
     justifyContent: "center",
   },
   numberText: {
     color: Colors.accent500,
-    fontSize: deviceWidth < 380 ? 28 :36,
+    fontSize: deviceWidth* 0.06,
     fontWeight: "bold",
   },
 });
