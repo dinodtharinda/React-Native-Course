@@ -152,15 +152,15 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flex: 1,
   },
-  buttonsContainerWide:{
-flexDirection:"row"
+  buttonsContainerWide: {
+    flexDirection: "row",
+    alignItems:'center'
   },
 
   listContainer: {
     flex: 1,
     padding: 16,
   },
-  
 });
 
 export default GameScreen;
